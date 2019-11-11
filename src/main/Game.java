@@ -1,5 +1,6 @@
 package main;
 
+import java.awt.event.ActionEvent;
 import java.util.List;
 
 public class Game {
@@ -20,6 +21,10 @@ public class Game {
 	
 	public List<CupView> getCupViews() {
 		return allCupViews;
+	}
+	
+	public void update (ActionEvent e) {
+		
 	}
 
 }

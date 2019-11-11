@@ -15,6 +15,7 @@ public class CupView extends JPanel {
 		
 		JLabel thisCup = new JLabel("" + cup.getNumber());
 		add(thisCup);
+		this.addMouseListener(new ThrowListener());
 	}
 	
 	public Cup getCup() {
