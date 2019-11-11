@@ -9,5 +9,9 @@ public class CupView extends JPanel {
 	public CupView(Cup c) {
 		this.cup = c;
 	}
+	
+	public Cup getCup() {
+		return cup;
+	}
 
 }
