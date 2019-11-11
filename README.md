@@ -1,4 +1,4 @@
-# CarnivalCupGame
+# CarnivalCupGame 🤡
 Welcome to the COMP 401 Hackathon, Cirque du 401! This is the Carnival Cup Game, in which the player throws a ball at a pyramid of 6 cups from afar and attempts to knock down the pyramid. In the COMP 401 version, the player throws a ball at the pyramid by clicking on a cup.
 We have created this starter code of an MVC to represent this game. This includes:
 
@@ -21,18 +21,18 @@ We have created this starter code of an MVC to represent this game. This include
 * ThrowListener
   * This should listen for mouse clicks from the user on the cups and notify Game
   
-  You are responsible for the following:
-  1. Implement ThrowListener to listen to mouse clicks and pass that information on to Game.
-  2. Add the logic in Game to update() to listen for actions from ThrowListener and make appropriate changes in GameView.
-  3. Add functionality to the isGameOver() method.
-  4. Use Java Swing to make the UI user-friendly.
+You are responsible for the following:
+1. Implement ThrowListener to listen to mouse clicks and pass that information on to Game.
+2. Add the logic in Game to update() to listen for actions from ThrowListener and make appropriate changes in GameView.
+3. Add functionality to the isGameOver() method.
+4. Use Java Swing to make the UI user-friendly.
   
-  Bonus ideas:
-  * A power meter to increase the probability of a cup falling on a high-power throw
-  * Add functionality for the user to specify the number of cups (i.e. 3, 6, 10, 15, 21, ...)
-  * Anything else to make this game more fun! 
+Bonus ideas:
+* A power meter to increase the probability of a cup falling on a high-power throw
+* Add functionality for the user to specify the number of cups (i.e. 3, 6, 10, 15, 21, ...)
+* Anything else to make this game more fun! 
   
-  Helpful resources:
-  * Java Swing Tutorial Point user-friendly documentation: https://www.javatpoint.com/java-swing
-  * Another user-friendly documentation: https://www.guru99.com/java-swing-gui.html
-  * Oracle documentation for Java Swing: https://docs.oracle.com/javase/tutorial/uiswing/index.html
+Helpful resources:
+* Java Swing Tutorial Point user-friendly documentation: https://www.javatpoint.com/java-swing
+* Another user-friendly documentation: https://www.guru99.com/java-swing-gui.html
+* Oracle documentation for Java Swing: https://docs.oracle.com/javase/tutorial/uiswing/index.html
