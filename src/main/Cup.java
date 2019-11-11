@@ -3,7 +3,7 @@ package main;
 public class Cup {
 	
 	double probability;
-	boolean up = true;
+	boolean standing = true;
 	int number;
 	int row;
 	
@@ -21,12 +21,16 @@ public class Cup {
 		this.probability = probability;
 	}
 	
-	public boolean getUp() {
-		return up;
+	public boolean getStanding() {
+		return standing;
 	}
 	
 	public void knockDown() {
-		this.up = false;
+		this.standing = false;
+	}
+	
+	public int getNumber() {
+		return number;
 	}
 	
 	

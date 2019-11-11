@@ -17,5 +17,9 @@ public class Game {
 		
 		return false;
 	}
+	
+	public List<CupView> getCupViews() {
+		return allCupViews;
+	}
 
 }
