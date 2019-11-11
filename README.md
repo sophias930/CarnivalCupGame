@@ -14,8 +14,6 @@ We have created this starter code of an MVC to represent this game. This include
 * Cup and CupView
   * Cup holds all of the information about a specific cup object, and CupView is the Java Swing representation of it
   * Cup holds the information describing the probability that the cup knocks down all the other cups, whether the cup is up or down ("standing"), the cup number, and the cup row (e.g. top (1), middle (2), bottom (3))
-  * The program should not alter the probablity, number, or row over time
-  * The only field that will be changed throughout the game is whether the cup is up (standing = true) or down (standing = false)
   * Cup listens for clicks from CupListener
   * CupView contains its corresponding Cup as a field
 * ThrowListener
